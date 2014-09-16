@@ -1,10 +1,11 @@
 #import <XCTest/XCTest.h>
 
-@interface StrawServiceLocaleTests : XCTestCase
+@interface STWServiceLocaleTest : XCTestCase
 
 @end
 
-@implementation StrawServiceLocaleTests
+@implementation STWServiceLocaleTest
+
 
 - (void)testExample
 {

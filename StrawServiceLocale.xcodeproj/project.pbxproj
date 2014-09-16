@@ -8,14 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		1962021219C895C0002782C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1962021119C895C0002782C5 /* Foundation.framework */; };
-		1962021719C895C0002782C5 /* StrawServiceLocale.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1962021619C895C0002782C5 /* StrawServiceLocale.h */; };
-		1962021919C895C0002782C5 /* StrawServiceLocale.m in Sources */ = {isa = PBXBuildFile; fileRef = 1962021819C895C0002782C5 /* StrawServiceLocale.m */; };
 		1962022019C895C0002782C5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1962021F19C895C0002782C5 /* XCTest.framework */; };
 		1962022119C895C1002782C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1962021119C895C0002782C5 /* Foundation.framework */; };
 		1962022319C895C1002782C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1962022219C895C1002782C5 /* UIKit.framework */; };
 		1962022619C895C1002782C5 /* libStrawServiceLocale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1962020E19C895C0002782C5 /* libStrawServiceLocale.a */; };
 		1962022C19C895C1002782C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1962022A19C895C1002782C5 /* InfoPlist.strings */; };
-		1962022E19C895C1002782C5 /* StrawServiceLocaleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1962022D19C895C1002782C5 /* StrawServiceLocaleTests.m */; };
+		1962023919C8EADE002782C5 /* STWServiceLocale.m in Sources */ = {isa = PBXBuildFile; fileRef = 1962023819C8EADE002782C5 /* STWServiceLocale.m */; };
+		1962023B19C8EB16002782C5 /* STWServiceLocaleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1962023A19C8EB16002782C5 /* STWServiceLocaleTest.m */; };
 		59A5BD7D656C4983B6B1F176 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66682C86F2264781A9D51E16 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -36,7 +35,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				1962021719C895C0002782C5 /* StrawServiceLocale.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,14 +44,14 @@
 		1962020E19C895C0002782C5 /* libStrawServiceLocale.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libStrawServiceLocale.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1962021119C895C0002782C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1962021519C895C0002782C5 /* StrawServiceLocale-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StrawServiceLocale-Prefix.pch"; sourceTree = "<group>"; };
-		1962021619C895C0002782C5 /* StrawServiceLocale.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrawServiceLocale.h; sourceTree = "<group>"; };
-		1962021819C895C0002782C5 /* StrawServiceLocale.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrawServiceLocale.m; sourceTree = "<group>"; };
 		1962021E19C895C0002782C5 /* StrawServiceLocaleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrawServiceLocaleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1962021F19C895C0002782C5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1962022219C895C1002782C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		1962022919C895C1002782C5 /* StrawServiceLocaleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StrawServiceLocaleTests-Info.plist"; sourceTree = "<group>"; };
 		1962022B19C895C1002782C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1962022D19C895C1002782C5 /* StrawServiceLocaleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrawServiceLocaleTests.m; sourceTree = "<group>"; };
+		1962023719C8EADE002782C5 /* STWServiceLocale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STWServiceLocale.h; sourceTree = "<group>"; };
+		1962023819C8EADE002782C5 /* STWServiceLocale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STWServiceLocale.m; sourceTree = "<group>"; };
+		1962023A19C8EB16002782C5 /* STWServiceLocaleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STWServiceLocaleTest.m; sourceTree = "<group>"; };
 		5F947582A2D0480AA7F7A877 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		66682C86F2264781A9D51E16 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -116,8 +114,8 @@
 		1962021319C895C0002782C5 /* StrawServiceLocale */ = {
 			isa = PBXGroup;
 			children = (
-				1962021619C895C0002782C5 /* StrawServiceLocale.h */,
-				1962021819C895C0002782C5 /* StrawServiceLocale.m */,
+				1962023719C8EADE002782C5 /* STWServiceLocale.h */,
+				1962023819C8EADE002782C5 /* STWServiceLocale.m */,
 				1962021419C895C0002782C5 /* Supporting Files */,
 			);
 			path = StrawServiceLocale;
@@ -134,7 +132,7 @@
 		1962022719C895C1002782C5 /* StrawServiceLocaleTests */ = {
 			isa = PBXGroup;
 			children = (
-				1962022D19C895C1002782C5 /* StrawServiceLocaleTests.m */,
+				1962023A19C8EB16002782C5 /* STWServiceLocaleTest.m */,
 				1962022819C895C1002782C5 /* Supporting Files */,
 			);
 			path = StrawServiceLocaleTests;
@@ -265,7 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1962021919C895C0002782C5 /* StrawServiceLocale.m in Sources */,
+				1962023919C8EADE002782C5 /* STWServiceLocale.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1962022E19C895C1002782C5 /* StrawServiceLocaleTests.m in Sources */,
+				1962023B19C8EB16002782C5 /* STWServiceLocaleTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
