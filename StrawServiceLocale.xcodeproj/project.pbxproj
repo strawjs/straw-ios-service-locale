@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1962021219C895C0002782C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1962021119C895C0002782C5 /* Foundation.framework */; };
+		1962021719C895C0002782C5 /* StrawServiceLocale.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1962021619C895C0002782C5 /* StrawServiceLocale.h */; };
+		1962021919C895C0002782C5 /* StrawServiceLocale.m in Sources */ = {isa = PBXBuildFile; fileRef = 1962021819C895C0002782C5 /* StrawServiceLocale.m */; };
+		1962022019C895C0002782C5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1962021F19C895C0002782C5 /* XCTest.framework */; };
+		1962022119C895C1002782C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1962021119C895C0002782C5 /* Foundation.framework */; };
+		1962022319C895C1002782C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1962022219C895C1002782C5 /* UIKit.framework */; };
+		1962022619C895C1002782C5 /* libStrawServiceLocale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1962020E19C895C0002782C5 /* libStrawServiceLocale.a */; };
+		1962022C19C895C1002782C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1962022A19C895C1002782C5 /* InfoPlist.strings */; };
+		1962022E19C895C1002782C5 /* StrawServiceLocaleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1962022D19C895C1002782C5 /* StrawServiceLocaleTests.m */; };
+		59A5BD7D656C4983B6B1F176 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66682C86F2264781A9D51E16 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1962022419C895C1002782C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1962020619C895C0002782C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1962020D19C895C0002782C5;
+			remoteInfo = StrawServiceLocale;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1962020C19C895C0002782C5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				1962021719C895C0002782C5 /* StrawServiceLocale.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1962020E19C895C0002782C5 /* libStrawServiceLocale.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libStrawServiceLocale.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1962021119C895C0002782C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1962021519C895C0002782C5 /* StrawServiceLocale-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StrawServiceLocale-Prefix.pch"; sourceTree = "<group>"; };
+		1962021619C895C0002782C5 /* StrawServiceLocale.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrawServiceLocale.h; sourceTree = "<group>"; };
+		1962021819C895C0002782C5 /* StrawServiceLocale.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrawServiceLocale.m; sourceTree = "<group>"; };
+		1962021E19C895C0002782C5 /* StrawServiceLocaleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrawServiceLocaleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1962021F19C895C0002782C5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1962022219C895C1002782C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		1962022919C895C1002782C5 /* StrawServiceLocaleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StrawServiceLocaleTests-Info.plist"; sourceTree = "<group>"; };
+		1962022B19C895C1002782C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1962022D19C895C1002782C5 /* StrawServiceLocaleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrawServiceLocaleTests.m; sourceTree = "<group>"; };
+		5F947582A2D0480AA7F7A877 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		66682C86F2264781A9D51E16 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1962020B19C895C0002782C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1962021219C895C0002782C5 /* Foundation.framework in Frameworks */,
+				59A5BD7D656C4983B6B1F176 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1962021B19C895C0002782C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1962022019C895C0002782C5 /* XCTest.framework in Frameworks */,
+				1962022319C895C1002782C5 /* UIKit.framework in Frameworks */,
+				1962022119C895C1002782C5 /* Foundation.framework in Frameworks */,
+				1962022619C895C1002782C5 /* libStrawServiceLocale.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1962020519C895C0002782C5 = {
+			isa = PBXGroup;
+			children = (
+				1962021319C895C0002782C5 /* StrawServiceLocale */,
+				1962022719C895C1002782C5 /* StrawServiceLocaleTests */,
+				1962021019C895C0002782C5 /* Frameworks */,
+				1962020F19C895C0002782C5 /* Products */,
+				5F947582A2D0480AA7F7A877 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		1962020F19C895C0002782C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1962020E19C895C0002782C5 /* libStrawServiceLocale.a */,
+				1962021E19C895C0002782C5 /* StrawServiceLocaleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1962021019C895C0002782C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1962021119C895C0002782C5 /* Foundation.framework */,
+				1962021F19C895C0002782C5 /* XCTest.framework */,
+				1962022219C895C1002782C5 /* UIKit.framework */,
+				66682C86F2264781A9D51E16 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1962021319C895C0002782C5 /* StrawServiceLocale */ = {
+			isa = PBXGroup;
+			children = (
+				1962021619C895C0002782C5 /* StrawServiceLocale.h */,
+				1962021819C895C0002782C5 /* StrawServiceLocale.m */,
+				1962021419C895C0002782C5 /* Supporting Files */,
+			);
+			path = StrawServiceLocale;
+			sourceTree = "<group>";
+		};
+		1962021419C895C0002782C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1962021519C895C0002782C5 /* StrawServiceLocale-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1962022719C895C1002782C5 /* StrawServiceLocaleTests */ = {
+			isa = PBXGroup;
+			children = (
+				1962022D19C895C1002782C5 /* StrawServiceLocaleTests.m */,
+				1962022819C895C1002782C5 /* Supporting Files */,
+			);
+			path = StrawServiceLocaleTests;
+			sourceTree = "<group>";
+		};
+		1962022819C895C1002782C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1962022919C895C1002782C5 /* StrawServiceLocaleTests-Info.plist */,
+				1962022A19C895C1002782C5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1962020D19C895C0002782C5 /* StrawServiceLocale */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1962023119C895C1002782C5 /* Build configuration list for PBXNativeTarget "StrawServiceLocale" */;
+			buildPhases = (
+				0B1FECCFE3DC489AA4D226AE /* Check Pods Manifest.lock */,
+				1962020A19C895C0002782C5 /* Sources */,
+				1962020B19C895C0002782C5 /* Frameworks */,
+				1962020C19C895C0002782C5 /* CopyFiles */,
+				20C2D65FA2DA4AA4A1E4469A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StrawServiceLocale;
+			productName = StrawServiceLocale;
+			productReference = 1962020E19C895C0002782C5 /* libStrawServiceLocale.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1962021D19C895C0002782C5 /* StrawServiceLocaleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1962023419C895C1002782C5 /* Build configuration list for PBXNativeTarget "StrawServiceLocaleTests" */;
+			buildPhases = (
+				1962021A19C895C0002782C5 /* Sources */,
+				1962021B19C895C0002782C5 /* Frameworks */,
+				1962021C19C895C0002782C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1962022519C895C1002782C5 /* PBXTargetDependency */,
+			);
+			name = StrawServiceLocaleTests;
+			productName = StrawServiceLocaleTests;
+			productReference = 1962021E19C895C0002782C5 /* StrawServiceLocaleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1962020619C895C0002782C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = straw.org;
+			};
+			buildConfigurationList = 1962020919C895C0002782C5 /* Build configuration list for PBXProject "StrawServiceLocale" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1962020519C895C0002782C5;
+			productRefGroup = 1962020F19C895C0002782C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1962020D19C895C0002782C5 /* StrawServiceLocale */,
+				1962021D19C895C0002782C5 /* StrawServiceLocaleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1962021C19C895C0002782C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1962022C19C895C1002782C5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B1FECCFE3DC489AA4D226AE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		20C2D65FA2DA4AA4A1E4469A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1962020A19C895C0002782C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1962021919C895C0002782C5 /* StrawServiceLocale.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1962021A19C895C0002782C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1962022E19C895C1002782C5 /* StrawServiceLocaleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1962022519C895C1002782C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1962020D19C895C0002782C5 /* StrawServiceLocale */;
+			targetProxy = 1962022419C895C1002782C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1962022A19C895C1002782C5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1962022B19C895C1002782C5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1962022F19C895C1002782C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1962023019C895C1002782C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1962023219C895C1002782C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F947582A2D0480AA7F7A877 /* Pods.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/StrawServiceLocale.dst;
+				GCC_CHAR_IS_UNSIGNED_CHAR = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StrawServiceLocale/StrawServiceLocale-Prefix.pch";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1962023319C895C1002782C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F947582A2D0480AA7F7A877 /* Pods.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/StrawServiceLocale.dst;
+				GCC_CHAR_IS_UNSIGNED_CHAR = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StrawServiceLocale/StrawServiceLocale-Prefix.pch";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1962023519C895C1002782C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StrawServiceLocale/StrawServiceLocale-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "StrawServiceLocaleTests/StrawServiceLocaleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1962023619C895C1002782C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StrawServiceLocale/StrawServiceLocale-Prefix.pch";
+				INFOPLIST_FILE = "StrawServiceLocaleTests/StrawServiceLocaleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1962020919C895C0002782C5 /* Build configuration list for PBXProject "StrawServiceLocale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1962022F19C895C1002782C5 /* Debug */,
+				1962023019C895C1002782C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1962023119C895C1002782C5 /* Build configuration list for PBXNativeTarget "StrawServiceLocale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1962023219C895C1002782C5 /* Debug */,
+				1962023319C895C1002782C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1962023419C895C1002782C5 /* Build configuration list for PBXNativeTarget "StrawServiceLocaleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1962023519C895C1002782C5 /* Debug */,
+				1962023619C895C1002782C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1962020619C895C0002782C5 /* Project object */;
+}
