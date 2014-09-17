@@ -395,6 +395,7 @@
 		};
 		1962023519C895C1002782C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F947582A2D0480AA7F7A877 /* Pods.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -415,6 +416,7 @@
 		};
 		1962023619C895C1002782C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F947582A2D0480AA7F7A877 /* Pods.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
