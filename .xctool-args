@@ -1,0 +1,6 @@
+[
+    "-workspace", "StrawServiceLocale.xcworkspace",
+    "-scheme", "StrawServiceLocale",
+    "-configuration", "Debug",
+    "-sdk", "iphonesimulator"
+]
