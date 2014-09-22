@@ -1,6 +1,10 @@
-.PHONY: doc doc-release
+.PHONY: doc doc-release release
+
 doc:
 	appledoc --project-name 'StrawServiceLocale' --project-company 'strawjs.org' --company-id 'org.strawjs' --output doc/dev --create-html --no-create-docset StrawServiceLocale
 
 doc-release:
 	appledoc --project-name 'StrawServiceLocale' --project-company 'strawjs.org' --company-id 'org.strawjs' --output doc/v0.1.1 --create-html --no-create-docset StrawServiceLocale
+
+release:
+	pod trunk push StrawServiceLocale.podspec
