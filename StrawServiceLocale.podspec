@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/strawjs/straw-ios-service-locale"
 
-  s.license      = "MIT"
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
   s.author       = { "Yoshiya Hinosawa" => "stibium121@gmail.com" }
 
@@ -30,6 +30,6 @@ Pod::Spec.new do |s|
 
   s.dependency "Straw", "~> 0.5.0"
 
-  s.require_arc = true
+  s.requires_arc = true
 
 end
